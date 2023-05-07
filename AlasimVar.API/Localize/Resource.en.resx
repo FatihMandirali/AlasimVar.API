@@ -21,4 +21,10 @@
     <data name="login_info_wrong" xml:space="preserve">
         <value>Email or password wrong</value>
     </data>
+    <data name="bad_request" xml:space="preserve">
+        <value>Request is worng</value>
+    </data>
+    <data name="unexpected_error" xml:space="preserve">
+        <value>Unexpected error</value>
+    </data>
 </root>

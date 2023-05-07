@@ -50,5 +50,17 @@ namespace AlasimVar.API.Localize {
                 return ResourceManager.GetString("login_info_wrong", resourceCulture);
             }
         }
+        
+        internal static string bad_request {
+            get {
+                return ResourceManager.GetString("bad_request", resourceCulture);
+            }
+        }
+        
+        internal static string unexpected_error {
+            get {
+                return ResourceManager.GetString("unexpected_error", resourceCulture);
+            }
+        }
     }
 }

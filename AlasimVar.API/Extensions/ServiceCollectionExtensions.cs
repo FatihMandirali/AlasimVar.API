@@ -1,10 +1,14 @@
 using System.Globalization;
 using AlasimVar.API.Filters;
 using AlasimVar.API.Middleware;
+using AlasimVar.Application.Enums;
+using AlasimVar.Application.Features.Commands.Login;
 using AlasimVar.Application.Helpers.Jwt;
 using AlasimVar.Application.IServices;
 using AlasimVar.Domain;
 using AlasimVar.Infrastructure.Services;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -79,6 +83,13 @@ public static class ServiceCollectionExtensions
         services.AddControllers(options =>
         {
             options.Filters.Add(new HttpResponseExceptionFilter());
+            options.Filters.Add(typeof(ValidateModelStateAttribute));
+        }).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
+        #endregion
+        #region FluentValidation
+        services.AddFluentValidation(conf =>
+        {
+            conf.RegisterValidatorsFromAssembly(typeof(ProcessStatusEnum).Assembly);
         });
         #endregion
         #region Services

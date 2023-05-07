@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D1fmNoNNfmUv9aDPWIz01JGPqyBAU6KGeHtC9DVqoFGo7irAjRTimue9i91cBq/RDaxYboQj2yNz/BwMpDDVEw==",
+  "dgSpecHash": "EMDacGhMdu3ju4MzGw9ub/L++OkwLZ0+ms9JIkhqxjJC2p3VNT+DBYWTv31jogKQYNLMJNT7dDHlCBhiQnyrhA==",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/AlasimVar.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/fatihmandirali/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.2/fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
