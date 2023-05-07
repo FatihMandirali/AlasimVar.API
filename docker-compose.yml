@@ -2,13 +2,10 @@ version: '3.4'
 
 services:
   alasimvar.api:
-    image: ${DOCKER_REGISTRY-}alasimvar
+    image: fthmndrli/alasimvar.api
     ports:
       - 5006:80
     restart: always
-    build:
-      context: .
-      dockerfile: AlasimVar.API/Dockerfile
     environment:
       ASPNETCORE_APPREQUIREHOST: "*:5006"
       ASPNETCORE_URLS: "http://*:5006"
@@ -48,7 +45,38 @@ services:
       - postgres
     links:
       - postgres        
-
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.1
+    environment:
+      discovery.type: single-node
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - ./config/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/elasticsearch.yml
+      - esdata:/usr/share/elasticsearch/data
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.10.1
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+  apm-server:
+    image: docker.elastic.co/apm/apm-server:7.10.1
+    ports:
+      - "8200:8200"
+    depends_on:
+      - elasticsearch
+  cache:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    #command: redis-server --save 20 1 --loglevel warning --requirepass eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+    volumes:
+      - cache:/data
 volumes:
   postgres:
   pgadmin:
+  esdata:
+  cache:  

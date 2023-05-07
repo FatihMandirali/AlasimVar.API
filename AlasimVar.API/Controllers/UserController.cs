@@ -9,11 +9,9 @@ namespace AlasimVar.API.Controllers;
 public class UserController:BaseController
 {
     private readonly IMediator _mediator;
-    private readonly IUserService _userService;
 
-    public UserController(IUserService userService, IMediator mediator)
+    public UserController(Mediator mediator)
     {
-        _userService = userService;
         _mediator = mediator;
     }
     

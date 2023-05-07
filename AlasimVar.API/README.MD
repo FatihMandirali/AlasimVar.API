@@ -1,0 +1,2 @@
+aws ec2 Got permission denied while trying to connect to the Docker daemon socket at error solution:
+https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket

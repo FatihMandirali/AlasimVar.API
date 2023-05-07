@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AWsFWLyTpWqpqiS9fuUW5Cy5JsTxfvTP3euvnYppVHvR4S5U6Uk3RAA3TuYe9NNkcauCDfs5kKLeRcpvWbuW8w==",
+  "dgSpecHash": "D1fmNoNNfmUv9aDPWIz01JGPqyBAU6KGeHtC9DVqoFGo7irAjRTimue9i91cBq/RDaxYboQj2yNz/BwMpDDVEw==",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/AlasimVar.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/fatihmandirali/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.3/microsoft.aspnetcore.authentication.jwtbearer.7.0.3.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.3/microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.3/microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
@@ -21,8 +23,15 @@
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/npgsql/7.0.2/npgsql.7.0.2.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.3/npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512"
+    "/Users/fatihmandirali/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.3/npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": [
     {

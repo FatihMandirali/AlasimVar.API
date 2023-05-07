@@ -1,3 +1,5 @@
+using AlasimVar.Domain.EntityEnums;
+
 namespace AlasimVar.Domain.Entities;
 
 public class User:BaseEntity
@@ -9,4 +11,5 @@ public class User:BaseEntity
     public string Password { get; set; }
     public string City { get; set; }
     public string Couty { get; set; }
+    public RolesEnum Role { get; set; }
 }
