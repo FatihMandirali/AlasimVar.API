@@ -1,5 +1,6 @@
 using AlasimVar.Application.Enums;
 using AlasimVar.Application.Features.Commands.Login;
+using AlasimVar.Application.Features.Commands.Register;
 using AlasimVar.Application.Features.Queries.User;
 using AlasimVar.Application.Helpers.Jwt;
 using AlasimVar.Application.Models.BaseModel;
@@ -28,5 +29,12 @@ public class AuthenticationController:BaseController
     {
         var response = await _mediator.Send(request);
         return new BaseResponse<AccessToken>(ProcessStatusEnum.Success,null,response);
+    }
+    
+    [HttpPost("Register")]
+    public async Task<BaseResponse<object>> Register([FromBody] RegisterCommand request)
+    {
+        var response = await _mediator.Send(request);
+        return new BaseResponse<object>(ProcessStatusEnum.Success,null,response);
     }
 }
