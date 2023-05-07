@@ -1,0 +1,14 @@
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/bin/Debug/net7.0/AlasimVar.Domain.deps.json
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/bin/Debug/net7.0/AlasimVar.Domain.runtimeconfig.json
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/bin/Debug/net7.0/AlasimVar.Domain.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/bin/Debug/net7.0/AlasimVar.Domain.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.csproj.AssemblyReference.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.AssemblyInfoInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.AssemblyInfo.cs
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.csproj.CoreCompileInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/refint/AlasimVar.Domain.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/AlasimVar.Domain.genruntimeconfig.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Domain/obj/Debug/net7.0/ref/AlasimVar.Domain.dll

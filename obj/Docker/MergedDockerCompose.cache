@@ -1,0 +1,103 @@
+name: dockercompose4040129640527633175
+services:
+  alasimvar.api:
+    build:
+      context: /Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API
+      dockerfile: AlasimVar.API/Dockerfile
+    depends_on:
+      pgadmin:
+        condition: service_started
+      postgres:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionStrings__SqlConnection: Host=postgres;Database=postgres;Username=postgres;Password=postgres
+      TZ: Turkey
+    image: alasimvar
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    - mode: ingress
+      target: 5006
+      published: "5006"
+      protocol: tcp
+    - mode: ingress
+      target: 5007
+      published: "5007"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /Users/fatihmandirali/.aspnet/https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/fatihmandirali/.microsoft/usersecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  pgadmin:
+    container_name: pgadmin_container
+    depends_on:
+      postgres:
+        condition: service_started
+    environment:
+      PGADMIN_DEFAULT_EMAIL: hairdresser1@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: hairdresser@1231
+      PGADMIN_LISTEN_PORT: "5050"
+      TZ: Turkey
+    image: dpage/pgadmin4
+    links:
+    - postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5050
+      published: "5050"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: volume
+      source: pgadmin
+      target: /var/lib/pgadmin
+      volume: {}
+  postgres:
+    container_name: postgres_container
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRESQL_PASSWORD: postgres
+      TZ: Turkey
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5433"
+      protocol: tcp
+    restart: always
+    tty: true
+    volumes:
+    - type: volume
+      source: postgres
+      target: /data/postgres
+      volume: {}
+networks:
+  default:
+    name: dockercompose4040129640527633175_default
+volumes:
+  pgadmin:
+    name: dockercompose4040129640527633175_pgadmin
+  postgres:
+    name: dockercompose4040129640527633175_postgres

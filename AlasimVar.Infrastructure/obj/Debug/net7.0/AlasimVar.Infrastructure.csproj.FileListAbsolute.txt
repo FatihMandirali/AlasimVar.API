@@ -1,0 +1,17 @@
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Infrastructure.deps.json
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Infrastructure.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Infrastructure.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Application.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Domain.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Application.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/bin/Debug/net7.0/AlasimVar.Domain.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.csproj.AssemblyReference.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.AssemblyInfoInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.AssemblyInfo.cs
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.csproj.CopyComplete
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/refint/AlasimVar.Infrastructure.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/AlasimVar.Infrastructure.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Infrastructure/obj/Debug/net7.0/ref/AlasimVar.Infrastructure.dll

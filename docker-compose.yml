@@ -1,0 +1,54 @@
+version: '3.4'
+
+services:
+  alasimvar.api:
+    image: ${DOCKER_REGISTRY-}alasimvar
+    ports:
+      - 5006:80
+    restart: always
+    build:
+      context: .
+      dockerfile: AlasimVar.API/Dockerfile
+    environment:
+      ASPNETCORE_APPREQUIREHOST: "*:5006"
+      ASPNETCORE_URLS: "http://*:5006"
+      TZ: Turkey
+      ConnectionStrings__SqlConnection:
+        Host=postgres;Database=postgres;Username=postgres;Password=postgres
+    depends_on:
+      - postgres
+      - pgadmin
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    environment:
+      TZ: Turkey
+      POSTGRESQL_PASSWORD: postgres
+      POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5433:5432"
+    tty: true
+    restart: always
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'admin@admin.com'
+      PGADMIN_DEFAULT_PASSWORD: 'root'
+      PGADMIN_LISTEN_PORT: 5050
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    logging:
+      driver: none
+    ports:
+      - "5050:5050"
+    depends_on:
+      - postgres
+    links:
+      - postgres        
+
+volumes:
+  postgres:
+  pgadmin:

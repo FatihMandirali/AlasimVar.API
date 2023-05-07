@@ -1,0 +1,15 @@
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/bin/Debug/net7.0/AlasimVar.Application.deps.json
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/bin/Debug/net7.0/AlasimVar.Application.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/bin/Debug/net7.0/AlasimVar.Application.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/bin/Debug/net7.0/AlasimVar.Domain.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/bin/Debug/net7.0/AlasimVar.Domain.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.csproj.AssemblyReference.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.AssemblyInfoInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.AssemblyInfo.cs
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.csproj.CoreCompileInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.csproj.CopyComplete
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/refint/AlasimVar.Application.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/AlasimVar.Application.pdb
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/obj/Debug/net7.0/ref/AlasimVar.Application.dll

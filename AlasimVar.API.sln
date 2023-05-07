@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlasimVar.API", "AlasimVar.API\AlasimVar.API.csproj", "{23E89BF0-438E-4833-921C-16A6DACF50BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlasimVar.Domain", "AlasimVar.Domain\AlasimVar.Domain.csproj", "{19AA406E-AA71-4218-9723-6B27142E764D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlasimVar.Application", "AlasimVar.Application\AlasimVar.Application.csproj", "{8904DE5F-D761-4F13-B155-F2802734E522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlasimVar.Infrastructure", "AlasimVar.Infrastructure\AlasimVar.Infrastructure.csproj", "{6636612C-4579-42E5-944C-9CD22794F96F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AE7FD786-3365-498E-B705-170DB3FBC9D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E89BF0-438E-4833-921C-16A6DACF50BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E89BF0-438E-4833-921C-16A6DACF50BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E89BF0-438E-4833-921C-16A6DACF50BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E89BF0-438E-4833-921C-16A6DACF50BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AA406E-AA71-4218-9723-6B27142E764D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AA406E-AA71-4218-9723-6B27142E764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AA406E-AA71-4218-9723-6B27142E764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AA406E-AA71-4218-9723-6B27142E764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8904DE5F-D761-4F13-B155-F2802734E522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8904DE5F-D761-4F13-B155-F2802734E522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8904DE5F-D761-4F13-B155-F2802734E522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8904DE5F-D761-4F13-B155-F2802734E522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6636612C-4579-42E5-944C-9CD22794F96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6636612C-4579-42E5-944C-9CD22794F96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6636612C-4579-42E5-944C-9CD22794F96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6636612C-4579-42E5-944C-9CD22794F96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7FD786-3365-498E-B705-170DB3FBC9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7FD786-3365-498E-B705-170DB3FBC9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7FD786-3365-498E-B705-170DB3FBC9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7FD786-3365-498E-B705-170DB3FBC9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
