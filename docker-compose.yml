@@ -2,10 +2,13 @@ version: '3.4'
 
 services:
   alasimvar.api:
-    image: fthmndrli/alasimvar.api
+    image: ${DOCKER_REGISTRY-}alasimvar
     ports:
       - 5006:80
     restart: always
+    build:
+      context: .
+      dockerfile: AlasimVar.API/Dockerfile
     environment:
       ASPNETCORE_APPREQUIREHOST: "*:5006"
       ASPNETCORE_URLS: "http://*:5006"

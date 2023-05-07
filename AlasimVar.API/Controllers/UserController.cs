@@ -10,7 +10,7 @@ public class UserController:BaseController
 {
     private readonly IMediator _mediator;
 
-    public UserController(Mediator mediator)
+    public UserController(IMediator mediator)
     {
         _mediator = mediator;
     }

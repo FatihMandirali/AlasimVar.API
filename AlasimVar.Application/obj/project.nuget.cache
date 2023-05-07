@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+FsntYIo562DTV32736e0+rAW48gglx4oDpfLC401LKR5uJ5ccnz5qchuG03UG+Iz6APBU4giSL8BejGk0tNuA==",
+  "dgSpecHash": "7VhjHB68apVOuxT38UN8yBOQblKA7z1mJlr4I+S4CBfxSMAtfWSMfMPRXZU5s8dHSRxFyr4aMhSWAEHkBNvLiw==",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/AlasimVar.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/fatihmandirali/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/automapper.collection/9.0.0/automapper.collection.9.0.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
@@ -12,7 +15,7 @@
     "/Users/fatihmandirali/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.3/microsoft.aspnetcore.authentication.jwtbearer.7.0.3.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.3/microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.3/microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
