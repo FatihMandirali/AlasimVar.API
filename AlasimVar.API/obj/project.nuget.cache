@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o+4J2/avulo+bNIscvauQnh6APv4onla9NiecOS3eKmE90GIwj8tuzHQmbb58y66fwE0wYZBSg3+918Czwlc2g==",
+  "dgSpecHash": "l7Gd06MurRi07XgOPITELI1h9ZZpTUnsEYyF1MR72OQUNgjLuuHtWd1W+EVQkPGfQua30j+PamYsnPo6MJ7I6Q==",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/AlasimVar.API.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "/Users/fatihmandirali/.nuget/packages/mongodb.bson/2.4.4/mongodb.bson.2.4.4.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mongodb.driver.core/2.4.4/mongodb.driver.core.2.4.4.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/nest/7.17.5/nest.7.17.5.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/netstandard.library/1.6.0/netstandard.library.1.6.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/npgsql/7.0.2/npgsql.7.0.2.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.3/npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",

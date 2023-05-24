@@ -1,4 +1,6 @@
+using AlasimVar.Application.Features.Commands.CreateUser;
 using AlasimVar.Application.Features.Queries.User;
+using AlasimVar.Application.Features.Queries.UserFindById;
 using AlasimVar.Application.IServices;
 using AlasimVar.Domain.Entities;
 using MediatR;
@@ -19,6 +21,18 @@ public class UserController:BaseController
     public async Task<List<User>> GetUserList([FromQuery] UserListQuery userListQuery)
     {
         var response = await _mediator.Send(userListQuery);
+        return response;
+    }
+    [HttpGet("UserById")]
+    public async Task<User> GetUserById([FromQuery] UserFindByIdQuery userFindByIdQuery)
+    {
+        var response = await _mediator.Send(userFindByIdQuery);
+        return response;
+    }
+    [HttpPost("CreateUser")]
+    public async Task<object> PostUser([FromBody] CreateUserCommand createUserCommand)
+    {
+        var response = await _mediator.Send(createUserCommand);
         return response;
     }
 }

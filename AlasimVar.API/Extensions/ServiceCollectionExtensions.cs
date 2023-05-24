@@ -30,6 +30,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<ExceptionCatcherMiddleware>();
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<ITokenHelper, JwtHelper>();
+        services.AddScoped<IElasticsearchService, ElasticsearchService>();
         #endregion
         #region Swagger
         services.AddSwaggerGen();

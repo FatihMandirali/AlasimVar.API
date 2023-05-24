@@ -1034,6 +1034,22 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "NEST/7.17.5": {
+        "type": "package",
+        "dependencies": {
+          "Elasticsearch.Net": "7.17.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "NETStandard.Library/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -3090,7 +3106,8 @@
           "BCrypt.Net-Next": "4.0.3",
           "FluentValidation.AspNetCore": "11.3.0",
           "FluentValidation.DependencyInjectionExtensions": "11.5.2",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.3"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.3",
+          "NEST": "7.17.5"
         },
         "compile": {
           "bin/placeholder/AlasimVar.Application.dll": {}
@@ -4672,6 +4689,25 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "NEST/7.17.5": {
+      "sha512": "bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "type": "package",
+      "path": "nest/7.17.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Nest.dll",
+        "lib/net461/Nest.pdb",
+        "lib/net461/Nest.xml",
+        "lib/netstandard2.0/Nest.dll",
+        "lib/netstandard2.0/Nest.pdb",
+        "lib/netstandard2.0/Nest.xml",
+        "license.txt",
+        "nest.7.17.5.nupkg.sha512",
+        "nest.nuspec",
+        "nuget-icon.png"
       ]
     },
     "NETStandard.Library/1.6.0": {

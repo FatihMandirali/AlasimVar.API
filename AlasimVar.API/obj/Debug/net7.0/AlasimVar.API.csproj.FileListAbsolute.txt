@@ -111,3 +111,7 @@
 /Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/AutoMapper.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/AutoMapper.Collection.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.API/bin/Debug/net7.0/Nest.dll

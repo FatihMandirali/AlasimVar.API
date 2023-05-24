@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7VhjHB68apVOuxT38UN8yBOQblKA7z1mJlr4I+S4CBfxSMAtfWSMfMPRXZU5s8dHSRxFyr4aMhSWAEHkBNvLiw==",
+  "dgSpecHash": "aEg6PPeepjEZFf3Uo8DLRTwH29rOIWkNl6KM+iWTVrAw7xczlVSR4lAUyrGLdxHrfVM3CDGRQ6VodJdzcKSR6w==",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/docker-project/AlasimVar.API/AlasimVar.Application/AlasimVar.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/fatihmandirali/.nuget/packages/automapper.collection/9.0.0/automapper.collection.9.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/elasticsearch.net/7.17.5/elasticsearch.net.7.17.5.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.2/fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
@@ -34,8 +35,11 @@
     "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/nest/7.17.5/nest.7.17.5.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/npgsql/7.0.2/npgsql.7.0.2.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.3/npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
